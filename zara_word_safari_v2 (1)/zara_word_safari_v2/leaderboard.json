@@ -1,0 +1,58 @@
+[
+  {
+    "name": "JKJAS",
+    "stars": 27,
+    "accuracy": 100,
+    "streak": 19,
+    "date": "2026-06-18"
+  },
+  {
+    "name": "MOLA",
+    "stars": 27,
+    "accuracy": 100,
+    "streak": 19,
+    "date": "2026-06-19"
+  },
+  {
+    "name": "ALPHA",
+    "stars": 27,
+    "accuracy": 100,
+    "streak": 19,
+    "date": "2026-06-19"
+  },
+  {
+    "name": "BEN",
+    "stars": 27,
+    "accuracy": 100,
+    "streak": 19,
+    "date": "2026-06-19"
+  },
+  {
+    "name": "YOO",
+    "stars": 27,
+    "accuracy": 100,
+    "streak": 19,
+    "date": "2026-06-19"
+  },
+  {
+    "name": "JBK",
+    "stars": 26,
+    "accuracy": 100,
+    "streak": 18,
+    "date": "2026-06-19"
+  },
+  {
+    "name": "HAROLD",
+    "stars": 24,
+    "accuracy": 100,
+    "streak": 16,
+    "date": "2026-06-20"
+  },
+  {
+    "name": "BEN",
+    "stars": 20,
+    "accuracy": 100,
+    "streak": 14,
+    "date": "2026-06-19"
+  }
+]
