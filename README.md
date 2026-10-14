@@ -38,7 +38,7 @@ Some details worth knowing:
 - The bonus switch stays on once it has been turned on. Only `reset()` clears it.
 - Every answer is saved in a session log with the word, whether it was correct, and the difficulty at that moment.
 
-It goes through five steps and tells you which one fails:
+## Microphone test
 
 1. Checks that `SpeechRecognition` and `pyaudio` are installed
 2. Lists the microphones it can find
@@ -48,7 +48,7 @@ It goes through five steps and tells you which one fails:
 
 Because step 5 uses Google Speech Recognition, it needs an internet connection.
 
-Common fixes the script suggests:
+Common fix suggestion:
 
 - **Windows privacy settings:** go to Settings → Privacy → Microphone and turn on access for apps and for desktop apps
 - **Wrong microphone:** check the list from step 2. If the default isn't the right one, try `device_index=1` or `2`
