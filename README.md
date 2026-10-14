@@ -4,8 +4,7 @@ Zara's Word Safari is an educational vocabulary game for children aged 4–6. We
 
 The game is made for very young players, so it keeps things simple: easy interaction, colorful visuals and beginner-friendly words. The "AI" part is Zara, an adaptive engine that watches how the child is doing and changes the difficulty, the hints and the retries to match.
 
-<!-- Add a screenshot: save it as screenshot.png in this folder, then remove these comment marks -->
-<!-- ![Game screenshot](screenshot.png) -->
+![alt text](<image.png>)
 
 ## What it does
 
@@ -38,24 +37,6 @@ Some details worth knowing:
 - The bonus switch stays on once it has been turned on. Only `reset()` clears it.
 - Every answer is saved in a session log with the word, whether it was correct, and the difficulty at that moment.
 
-## Microphone test
-
-1. Checks that `SpeechRecognition` and `pyaudio` are installed
-2. Lists the microphones it can find
-3. Opens the default microphone and listens to the background noise for 1 second, so stay quiet
-4. Waits up to 7 seconds for you to say a word
-5. Sends what it heard to Google Speech Recognition and prints the words it understood
-
-Because step 5 uses Google Speech Recognition, it needs an internet connection.
-
-Common fix suggestion:
-
-- **Windows privacy settings:** go to Settings → Privacy → Microphone and turn on access for apps and for desktop apps
-- **Wrong microphone:** check the list from step 2. If the default isn't the right one, try `device_index=1` or `2`
-- **Muted microphone:** check the volume icon in the system tray
-- **Microphone in use:** close other apps that might be using it
-- **Too noisy:** try again somewhere quieter
-- **Not understood:** speak louder and more clearly
 
 ## Team
 
